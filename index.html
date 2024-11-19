@@ -104,14 +104,16 @@
     <h1 style="text-align: center;">Learn English Like You're in the Movies!</h1>
     <div class="container">
 
-        <p>Imagine stepping into your favorite movie or TV show as one of the characters.
-            That's how our English learning method works – it's like karaoke,
-            but instead of songs, you act out fun scenes from shows you love.
-        </p>
-        <iframe width="700" height="400" src="https://www.youtube.com/embed/DgVMV7MKXo0" frameborder="0"
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
+        <div id="imagineDiv">
+            <p>Imagine stepping into your favorite movie or TV show as one of the characters.
+                That's how our English learning method works – it's like karaoke,
+                but instead of songs, you act out fun scenes from shows you love.
+            </p>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/DgVMV7MKXo0" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <p><a class="btn" href="https://www.tube2fluency.com">Start Now</a></p>
+        </div>
 
         <h2 class="section-title">Why it Works:</h2>
         <ul>
@@ -143,28 +145,30 @@
                     subtitles</a></li>
             <li><a href="#how-to-start-record">Record and review your drills</a></li>
             <li><a href="#how-to-start-share">Share your achievements on YouTube</a></li>
+            <li><a href="#how-to-start-mobile">Study it both on your computer and your mobile phone</a></li>
         </ul>
         <p><a class="btn" href="https://www.tube2fluency.com">Start Now</a></p>
 
         <h2 id="advanced-features-section" class="section-title">Advanced Features for Teachers and Experienced
             Students:</h2>
         <ul>
-            <li><a href="#advanced-features">Use ready-made exercises or create your own</a></li>
-            <li><a href="#advanced-features">Use any available on YouTube video for your lessons</a></li>
-            <li><a href="#advanced-features">Create your own personal playlists</a></li>
-            <li><a href="#advanced-features">Upload your subtitles to any video</a></li>
+            <li><a href="#dvanced-features-exercise">Use ready-made exercises or create your own</a></li>
+            <li><a href="#advanced-features-any-video">Use any available on YouTube video for your lessons</a></li>
+            <li><a href="#advanced-features-playlist">Create your own personal playlists</a></li>
+            <li><a href="#advanced-features-upload-captions">Upload your subtitles to any video</a></li>
         </ul>
 
+        <p><a class="btn" href="https://www.tube2fluency.com">Start Now</a></p>
     </div>
 
-    <div class="container">
-        <!-- Add this section somewhere appropriate in your HTML file -->
+    <div id="howToStartDiv" class="container">
         <h2 class="section-title">How to Start:</h2>
         <section id="how-to-start-visit" style="border: 2px solid #ddd; padding: 20px;">
             <h3>Visit <a href="https://www.tube2fluency.com"><i><u>www.tube2fluency.com</u></a></i></h3>
             <img src="./media/visit.png" alt="visit"
                 style="max-width: 70%; height: auto; border: 2px solid #ddd; padding: 20px;" />
         </section>
+
         <section id="how-to-start-signup" style="border: 2px solid #ddd; padding: 20px;">
             <h3>Signup for free</h3>
             <p>Register for free with no credit card required. Your email will be used for password recovery. Choose the
@@ -364,26 +368,6 @@
                 </div>
         </section>
 
-        <section id="how-to-start-exercise" style="border: 2px solid #ddd; padding: 20px;">
-            <div style="margin-bottom: 10px;">
-                <h3>Perform exercises based on the current subtitle.</h3>
-                <p>
-                    To generate an exercise, click this button
-                    <img src="./media/exerciseGenAssist.png" alt="addFlascard" style="max-width: 5%; height: auto;" />
-                </p>
-                <p>
-                    You can click this button several times, and the exercises may differ from each other.
-                </p>
-            </div>
-            <!-- <img src="./media/Video.jpg" alt="signup"
-            style="max-width: 70%; height: auto; border: 2px solid #ddd; padding: 20px;" /> -->
-            <video controls style="max-width: 70%; height: auto;">
-                <source src="./media/video/exercisesGen.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-
-        </section>
-
         <section id="how-to-start-parameters" style="border: 2px solid #ddd; padding: 20px;">
             <div style="margin-bottom: 10px;">
                 <h3>Adjust speed and hints to your comfort.</h3>
@@ -500,9 +484,9 @@
                         <img src="./media/clearBtn.png" alt="addFlascard" style="max-width: 5%; height: auto;" />
                     </p>
                 </div>
-                <div>
+                <div id="saveToFileDiv">
                     <h4>Save</h4>
-                    <p> You can also save the recording as a file on your computer. To do this, click the "Save" button.
+                    <p>You can also save the recording as a file on your computer. To do this, click the "Save" button.
                         <img src="./media/saveBtn.png" alt="addFlascard" style="max-width: 5%; height: auto;" />
                         The recording file will be saved in your "Downloads" folder.
                 </div>
@@ -564,11 +548,122 @@
                 </div>
             </div>
         </section>
+
+        <section id="how-to-start-mobile" style="border: 2px solid #ddd; padding: 20px;">
+            <div style="margin-bottom: 10px;">
+                <h3>Study it both on your computer and your mobile phone.</h3>
+                <div>
+                    <p>You can learn on your computer, tablet, or even your phone,
+                        but keep in mind that not all features work on mobile.
+                    </p>
+                    <video controls style="max-width: 70%; height: auto;">
+                        <source src="./media/video/mobile.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+        <p><a class="btn" href="https://www.tube2fluency.com">Start Now</a></p>
     </div>
 
-    <div class="container">
+    <div id="advancedDiv" class="container">
         <!-- Add this section somewhere appropriate in your HTML file -->
         <h2 class="section-title">Advanced Features for Teachers and Experienced Students:</h2>
+
+        <section id="dvanced-features-exercise" style="border: 2px solid #ddd; padding: 20px;">
+            <div style="margin-bottom: 10px;">
+                <h3>Use ready-made exercises or create your own.</h3>
+                <div>
+                    <p>When you first open the video you have selected, you will see the exercise in the format we have
+                        prepared.
+                        This includes:
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                        <li>Clip length: by default, the exercise will cover the entire video.</li>
+                        <li>Character: the role you will play in the scene, in other words, the text you will be saying.
+                        </li>
+                    </ul>
+                    However, you can change both of these parameters, and the application will remember your choice each
+                    time you make a change.
+                    Remember that the exercise can also be saved to a file for later opening.
+                    You can learn how to work with exercise files here
+                    <a href="#saveToFileDiv">Saving exercise or homework to a file</a>
+                    </p>
+                    <p>
+                        So you can change the clip length.
+                    </p>
+                    <video controls autoplay style="max-width: 50%; height: auto;">
+                        <source src="./media/video/changeSelection.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <p>
+                        This is how you choose a character.
+                    </p>
+                    <video controls autoplay style="max-width: 50%; height: auto;">
+                        <source src="./media/video/changePerson.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <p>
+                        This is what the exercise will look and sound like if you play as Piglet.
+                    </p>
+                    <video controls autoplay style="max-width: 50%; height: auto;">
+                        <source src="./media/video/playingPiglet.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <p>
+                        And here you'll say what Winnie says.
+                    </p>
+                    <video controls autoplay style="max-width: 50%; height: auto;">
+                        <source src="./media/video/playingPooh.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="advanced-features-any-video" style="border: 2px solid #ddd; padding: 20px;">
+            <div style="margin-bottom: 10px;">
+                <h3>Use any available on YouTube video for your lessons.</h3>
+                <div>
+                    <p>
+                        You can use any video from YouTube for your lessons.
+                        Just copy the link to the video and paste it into the application.
+                        The application will automatically download the video and extract the audio.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="advanced-features-playlist" style="border: 2px solid #ddd; padding: 20px;">
+            <div style="margin-bottom: 10px;">
+                <h3>Create your own personal playlists.</h3>
+                <div>
+                    <p>
+                        You can create your own personal playlists.
+                        Just click on the "Create Playlist" button and enter the name of your playlist.
+                        Then, you can add videos to your playlist by clicking on the "Add to Playlist" button.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="advanced-features-upload-captions" style="border: 2px solid #ddd; padding: 20px;">
+            <div style="margin-bottom: 10px;">
+                <h3>Upload your subtitles to any video.</h3>
+                <div>
+                    <p>
+                        You can upload your subtitles to any video.
+                        Just click on the "Upload Subtitles" button and select the file with your subtitles.
+                        The application will automatically upload your subtitles to the video.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <p><a class="btn" href="https://www.tube2fluency.com">Start Now</a></p>
     </div>
 
     <footer>

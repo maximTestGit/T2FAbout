@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/ru/help.html",
+            "destination": "/locales/ru/help.html"
+        }
+    ]
+}
